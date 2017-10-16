@@ -1,0 +1,21 @@
+---
+title: "Package Assignment"
+author: "Alexandre Chouraki"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+Bonjour !
+
+Ce package vous donne accès à 5 fonctions.
+save_as_csv permet d'enregistrer des dataframes au format csv.
+my_csv_reader importe tous les fichiers .csv d'un dossier donné.
+excel_multi importe tous les onglets d'un fichier excel donné.
+
+Les fonctions draw_a_name et draw_names utilisent la base de donnée prénoms pour tracer l'évolution des prénoms demandés au cours du temps.
+
+
