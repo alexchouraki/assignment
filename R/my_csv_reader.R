@@ -4,7 +4,8 @@
 #' @return the dataframe contained in the csv
 #' @import readxl
 #' @import assertthat
-#' @examples
+#' @import utils
+#' @example
 #' \dontrun{
 #' my_csv_reader("Desktop/jeux_video.csv")
 #'}

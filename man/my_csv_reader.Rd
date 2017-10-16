@@ -17,8 +17,3 @@ the dataframe contained in the csv
 My CSV reader
 This function reads CSV files in a folder
 }
-\examples{
-\dontrun{
-my_csv_reader("Desktop/jeux_video.csv")
-}
-}

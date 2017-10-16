@@ -15,8 +15,3 @@ all dataframes in the excel file
 \description{
 excel_multi
 }
-\examples{
-\dontrun{
-excel_multi("Desktop/titanic.xlsx")
-}
-}

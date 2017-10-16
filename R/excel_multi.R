@@ -5,7 +5,7 @@
 #' @import readxl
 #' @import assertthat
 #'
-#' @examples
+#' @example
 #' \dontrun{
 #' excel_multi("Desktop/titanic.xlsx")
 #'}

@@ -13,6 +13,8 @@ save_as_csv(dframe, filename, row.names = FALSE, ...)
 \item{filename}{the name and path you want to for your new .csv file}
 
 \item{row.names}{false}
+
+\item{...}{other parameters}
 }
 \value{
 the file
@@ -20,7 +22,4 @@ the file
 \description{
 Save as CSV
 This function saves the dataframe as a csv
-}
-\examples{
-save_as_csv (titanic, titanic.csv, row.names = FALSE, ...)
 }

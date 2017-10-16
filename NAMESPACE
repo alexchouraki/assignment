@@ -2,4 +2,9 @@
 
 import(assertthat)
 import(dplyr)
+import(dygraphs)
+import(ggplot2)
+import(prenoms)
 import(readxl)
+import(tidyr)
+import(utils)
