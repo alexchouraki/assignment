@@ -3,13 +3,12 @@
 #' @param dframe the dataframe you want to save as .csv
 #' @param filename the name and path you want to for your new .csv file
 #' @param row.names false
-#' @return
-#' @export
-#' @import
-#' dplyr
-#' assertthat
+#' @return the file
+#' @import dplyr
+#' @import assertthat
+#' @import readxl
 #' @examples
-#'
+#' save_as_csv (titanic, titanic.csv, row.names = FALSE, ...)
 
 save_as_csv <- function(dframe, filename, row.names = FALSE, ...){
   assert_that(is.data.frame(dframe))
