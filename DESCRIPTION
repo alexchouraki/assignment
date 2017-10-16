@@ -1,7 +1,8 @@
 Package: assignment
 Title: Assignment For Tuesday, 17th October
 Version: 0.0.0.9000
-Authors@R: Alexandre, Chouraki, email = "alexandre.chouraki@hec.edu", role = "student"
+Authors: Alexandre Chouraki
+Maintainer: Alexandre Chouraki <alexandre.chouraki@hec.edu>
 Description:
     This package contains all the functions that we have coded during the R class. 
 Depends: R (>= 3.4.1)
